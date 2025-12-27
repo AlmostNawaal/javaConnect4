@@ -229,7 +229,7 @@ public class BoardDrawing extends JComponent {
         // Since we restored translation, we can use absolute Y relative to panel
         // Board is at MARGIN_TOP to MARGIN_TOP + BOARD_HEIGHT
         
-        int y = MARGIN_TOP + BOARD_HEIGHT + 60;
+        int y = MARGIN_TOP + BOARD_HEIGHT + 47;
         int w = g2.getFontMetrics().stringWidth("Oops! " + error);
         g2.drawString("Oops! " + error, (getWidth() - w) / 2, y);
     }

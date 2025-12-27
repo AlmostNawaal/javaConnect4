@@ -196,6 +196,7 @@ public class GameState {
 		return false;
 	}
 	
+
 	//sets the proper error message after an invalid move is made
 	private void setErrorMessage() {
 		if(gameOver) error = "The game is over.";
@@ -230,4 +231,7 @@ public class GameState {
 	public boolean getGameOver(){
 		return gameOver;
 	}
+
+
+
 }
