@@ -80,8 +80,8 @@ Since the game tree for Connect 4 is too large to traverse completely, a heurist
 - Java Development Kit (JDK) 8 or higher.
 
 ### Gameplay Screenshots
-![alt text](image-1.png)
-![alt text](image.png)
+![alt text](images/image-1.png)
+![alt text](images/image.png)
 
 
 ### Development Team
